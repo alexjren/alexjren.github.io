@@ -122,12 +122,18 @@ footer {
 }
 
 .socials li {
+    margin: 0;
+    padding: 0;
     white-space: nowrap;
     float: center;
 }
 
 .socials li a {
-    display: inline-block;
+    display: inline;
     text-align: center;
     text-decoration: none;
+}
+
+.fa-linkedin-in {
+    size: 12px;
 }
