@@ -7,7 +7,7 @@
 }
 
 /* Header style */
-.header {
+header {
     width: 100%;
     position: relative;
     z-index: 1;
@@ -15,35 +15,36 @@
     background: rgba(33, 33, 33, 0.6);
 }
 
-#myHeader {
-    background: #333333;
-}
-
-.logo {
+/* Website name/logo */
+#logo {
+    width: max-content;
     left: 0;
     margin: 0;
-    padding: 0;
-    background-color: #333333;
+    float: left;
+    text-decoration: none;
 }
 
 #PageName {
     display: block;
-    padding: 16px;
-    background: #333333;
+    width: max-content;
     color: white;
     text-align: center;
-    text-decoration: none;
+    background-color:#333333;
 }
 
-#PageName:hover {
+#PageName:hover{
     background-color: #111111;
 }
 
-.nav-bar {
+/* Navigation bar */
+#nav {
+    width: max-content;
     right: 0;
+    margin: 0;
+    text-decoration: none;
 }
 
-ul.nav-bar-list {
+.nav-list {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -51,12 +52,11 @@ ul.nav-bar-list {
     background-color: #333333;
 }
 
-ul.nav-bar-list li {
-    right: 0;
+.nav-list li {
     float: left;
 }
 
-ul.nav-bar-list li a {
+.nav-list li a {
     display: block;
     color: white;
     text-align: center;
@@ -64,28 +64,6 @@ ul.nav-bar-list li a {
     text-decoration: none;
 }
 
-ul.nav-bar-list li a:hover {
+.nav-list li a {
     background-color: #111111;
 }
-
-/* Main body style 
-.text-box {
-    width: 90%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: #fff;
-}
-
-/* Footer style 
-.footer {
-    position: static;
-    bottom: 0;
-    height: 100px;
-    width: 100%;
-    background-color: #888;
-    background-size: cover;
-}
-*/
