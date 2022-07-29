@@ -95,6 +95,8 @@ footer {
     white-space: nowrap;
     float: left;
     display: block;
+    margin: 0;
+    padding: 16px;
 }
 
 .contact-list li h1, .contact-list li a {
