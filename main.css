@@ -20,7 +20,6 @@ header {
     width: max-content;
     left: 0;
     margin: 0;
-    padding: 16px;
     float: left;
     text-decoration: none;
 }
@@ -41,7 +40,7 @@ header {
 
 /* Navigation bar */
 #nav {
-    right: 0;
+    float: right;
     text-decoration: none;
 }
 
