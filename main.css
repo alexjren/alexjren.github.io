@@ -68,3 +68,36 @@ header {
 .nav-list li a:hover {
     background-color: #111111;
 }
+
+/* Footer CSS */
+footer {
+    width: 100%;
+    position: static;
+    z-index: 1;
+    overflow: hidden;
+    background: #333333;
+}
+
+/* Contact info style */
+.contact-info {
+    float: right;
+}
+
+.contact-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+.contact-list li {
+    white-space: nowrap;
+    float: left;
+    display: block;
+}
+
+.contact-list li h1, .contact-list li a {
+    text-align: center;
+    color: white;
+}
