@@ -26,10 +26,10 @@
 }
 
 #PageName {
-    width: 100px;
-    height: 30px;
+    display: block;
     left: 0;
     color: white;
+    text-align: center;
     text-decoration: none;
 }
 
