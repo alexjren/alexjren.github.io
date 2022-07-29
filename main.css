@@ -103,3 +103,28 @@ footer {
     text-align: center;
     color: white;
 }
+
+.contact-list li a {
+    font-size: 12px;
+}
+
+/* Social media */
+.socials {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+.socials li {
+    white-space: nowrap;
+    float: center;
+}
+
+.socials li a {
+    display: inline-block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
