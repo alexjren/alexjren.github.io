@@ -9,7 +9,7 @@
 /* Header style */
 header {
     width: 100%;
-    position: relative;
+    position: fixed;
     z-index: 1;
     overflow: hidden;
     background: #333333;
@@ -56,6 +56,7 @@ header {
 }
 
 .nav-list li {
+    white-space: nowrap;
     float: left;
 }
 
