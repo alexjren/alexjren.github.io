@@ -5,3 +5,23 @@
     font-size: 18px;
 }
 
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient();
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+    overflow: auto;
+}
+
+.text-box {
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+}
