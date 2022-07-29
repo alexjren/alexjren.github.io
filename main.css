@@ -64,6 +64,6 @@ header {
     text-decoration: none;
 }
 
-.nav-list li a {
+.nav-list li a:hover {
     background-color: #111111;
 }
