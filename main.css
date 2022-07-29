@@ -11,8 +11,8 @@ header {
     width: 100%;
     position: relative;
     z-index: 1;
-    overflow: auto;
-    background: rgba(33, 33, 33, 0.6);
+    overflow: hidden;
+    background: #333333;
 }
 
 /* Website name/logo */
@@ -20,6 +20,7 @@ header {
     width: max-content;
     left: 0;
     margin: 0;
+    padding: 16px;
     float: left;
     text-decoration: none;
 }
