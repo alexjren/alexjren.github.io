@@ -19,11 +19,24 @@
 }
 
 .left-content {
+    padding: 0 20px;
     width: 40%;
     background: #333333;
 }
 
 .right-content {
     flex-grow: 1;
-    width: 60%;
 }
+
+a.learn-more {
+    background-color: #1c87c9;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 2px;
+    cursor: pointer;
+  }
