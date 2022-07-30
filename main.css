@@ -96,11 +96,23 @@ section {
     display: inline;
 }
 
+.text-box {
+    width: 30%;
+    position: absolute;
+    float: left;
+}
+
+.Profile {
+    width: 20%;
+    position: absolute;
+    float: right;
+}
+
 /* Footer CSS */
 footer {
     bottom: 0;
     width: 100%;
-    position: absolute;
+    position: static;
     z-index: 1;
     overflow: hidden;
     background: #333333;
