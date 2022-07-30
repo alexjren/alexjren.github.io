@@ -1,9 +1,19 @@
+/* General CSS */
 *{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     text-decoration: none;
+}
+
+hr { 
+    display: block; 
+    margin-block-start: auto; 
+    margin-block-end: auto; 
+    overflow: hidden;
+    border-style: inset; 
+    border-width: 1px;
 }
 
 /* Header style */
@@ -110,9 +120,9 @@ section {
 
 /* Footer CSS */
 footer {
-    bottom: 0;
     width: 100%;
-    position: static;
+    position: absolute;
+    bottom: 0;
     z-index: 1;
     overflow: hidden;
     background: #333333;
