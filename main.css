@@ -102,9 +102,8 @@ header {
     width: 100%;
     position: absolute;
     overflow: hidden;
-    background: #bbbbbb;
+    background: #555555;
     padding-bottom: 150px;
-    order: 2;
 }
 
 section {
