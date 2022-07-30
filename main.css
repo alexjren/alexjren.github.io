@@ -92,7 +92,8 @@ section {
 
 .home-header-content {
     margin: auto;
-    padding: 50vh 0;
+    padding: 30vh 0;
+    display: inline;
 }
 
 /* Footer CSS */
