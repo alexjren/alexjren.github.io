@@ -15,7 +15,7 @@
     overflow: hidden;
     position: relative;
 }
-/*
+
 hr { 
     display: block; 
     margin-block-start: auto; 
@@ -110,29 +110,51 @@ section {
 }
 
 .home-header-content {
-    width: 80vw;
-    padding-left: 10vw;
-    padding-right: 10vw;
-    max-height: 50vh;
-    display: inline;
-    position: absolute;
-    top: 45vh;
+    width: 1200px;
+    height: 300px;
+    margin: auto;
+    position: relative;
+    top: 50vh;
     transform: translate(0,-50%);
-    overflow: hidden;
-}
-
-.intro {
-    width: 50%;
-    float: left;
+    overflow: visible;
 }
 
 #text {
-    float: left;
+    position: relative;
+    width: 800px;
+    height: 300px;
     text-align: center;
+    padding-right: 50px;
+    margin-right: 0;
+    float:left;
 }
-/*
-#profile {
-    float: right;
+
+#text-content {
+    position: relative;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+
+#text-content h1 {
+    font-size: 40px;
+    color: #eeeeee;
+}
+
+#text-content h2 {
+    padding-top: 20px;
+    font-size: 18px;
+    color: #dddddd;
+}
+
+#profile-img {
+    position: relative;
+    top: 50%;
+    transform: translate(0,-50%);
+    object-fit: cover;
+    width: 250px;
+    height: 300px;
+    border-radius: 50%;
+    object-position: 0 0;
 }
 
 /* Footer CSS */
