@@ -142,8 +142,6 @@ section {
 /* Footer CSS */
 footer {
     width: 100%;
-    position: absolute;
-    bottom: 0;
     overflow: hidden;
     background: #0f4880;
     z-index: 1;
