@@ -106,16 +106,22 @@ section {
     display: inline;
 }
 
-.text-box {
-    width: 30%;
-    position: absolute;
+.intro {
     float: left;
+    margin: auto;
 }
 
-.Profile {
-    width: 20%;
-    position: absolute;
-    float: right;
+#text {
+    width: 60%;
+    text-align: center;
+    margin-right: 0;
+    padding-right: 20px;
+}
+
+#profile {
+    width: 40%;
+    margin-left: 0;
+    padding-left: 20px;
 }
 
 /* Footer CSS */
