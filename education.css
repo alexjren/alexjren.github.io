@@ -1,5 +1,5 @@
-#title-container{
-    height: 50vh;
+.title-container{
+    height: 30vh;
 }
 
 #education-text {
@@ -8,4 +8,22 @@
     height: 300px;
     text-align: center;
     margin: auto;
+}
+
+.header-content {
+    top: 60%;
+}
+
+.main-content {
+    display: flex;
+}
+
+.left-content {
+    width: 40%;
+    background: #333333;
+}
+
+.right-content {
+    flex-grow: 1;
+    width: 60%;
 }

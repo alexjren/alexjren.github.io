@@ -7,6 +7,10 @@
     text-decoration: none;
 }
 
+html, body {
+    background-color:#082440;
+}
+
 #page-wrapper {
     width: 100%;
     height: fit-content;
@@ -92,8 +96,13 @@ header {
 /* Main content CSS */
 .main-container {
     width: 100%;
-    background: white;
     padding-bottom: 13vh;
+}
+
+.main-content {
+    width: 80vw;
+    margin: auto;
+    background: #333333;
 }
 
 section {
@@ -102,11 +111,14 @@ section {
     overflow: hidden;
 }
 
-#Intro {
-    width: 100%;
-    height: 100vh;
+.title-container {
     overflow: hidden;
     background: #082440;
+}
+
+#intro {
+    width: 100%;
+    height: 100vh;
 }
 
 .header-content {
