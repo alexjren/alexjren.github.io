@@ -19,7 +19,7 @@ body {
     min-height: 100vh;
     height: max-content;
     position: relative;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 hr { 
