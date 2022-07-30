@@ -21,6 +21,8 @@ body {
     height: auto;
     position: relative;
     overflow: visible;
+    display: flex;
+    flex-direction: column;
 }
 
 hr { 
@@ -115,7 +117,7 @@ section {
     width: 100%;
     height: 100vh;
     overflow: hidden;
-    background: #0f4880;
+    background: #082440;
 }
 
 .home-header-content {
@@ -148,8 +150,6 @@ footer {
     overflow: hidden;
     background: #0f4880;
     z-index: 1;
-    position: absolute;
-    bottom: 0;
     padding: 0;
 }
 
