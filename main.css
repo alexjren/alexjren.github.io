@@ -18,11 +18,8 @@ body {
 #page-wrapper {
     width: 100%;
     min-height: 100vh;
-    height: auto;
     position: relative;
     overflow: visible;
-    display: flex;
-    flex-direction: column;
 }
 
 hr { 
@@ -105,7 +102,7 @@ header {
     position: absolute;
     overflow: hidden;
     background: #bbbbbb;
-    padding: 0;
+    padding-bottom: 60px;
     order: 2;
 }
 
@@ -148,12 +145,12 @@ section {
 
 /* Footer CSS */
 footer {
+    position: absolute;
+    bottom: 0;
     width: 100%;
-    overflow: hidden;
+    height: 60px;
     background: #0f4880;
     z-index: 1;
-    padding: 0;
-    order: 3;
 }
 
 /* Contact info style */
