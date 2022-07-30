@@ -19,7 +19,7 @@ body {
     min-height: 100vh;
     height: auto;
     position: relative;
-    overflow: scroll;
+    overflow: visible;
 }
 
 hr { 
@@ -145,6 +145,8 @@ footer {
     overflow: hidden;
     background: #0f4880;
     z-index: 1;
+    position: absolute;
+    bottom: 0;
 }
 
 /* Contact info style */
