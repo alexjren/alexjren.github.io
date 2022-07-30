@@ -114,12 +114,12 @@ section {
     height: 300px;
     margin: auto;
     position: relative;
-    top: 50vh;
+    top: 50%;
     transform: translate(0,-50%);
     overflow: visible;
 }
 
-#text {
+#home-text {
     position: relative;
     width: 800px;
     height: 300px;
