@@ -73,6 +73,7 @@ header {
 .main-container {
     width: 100%;
     position: absolute;
+    z-index: -1;
     overflow: hidden;
     background: #555555;
 }
@@ -97,7 +98,7 @@ section {
 /* Footer CSS */
 footer {
     width: 100%;
-    position: static;
+    position: absolute;
     z-index: 1;
     overflow: hidden;
     background: #333333;
