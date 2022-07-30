@@ -7,6 +7,19 @@
     text-decoration: none;
 }
 
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#page-wrapper {
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+}
+
 hr { 
     display: block; 
     margin-block-start: auto; 
@@ -22,7 +35,7 @@ header {
     position: fixed;
     z-index: 1;
     overflow: hidden;
-    background: #0048cf;
+    background: #0f4880;
 }
 
 /* Website name/logo */
@@ -41,7 +54,7 @@ header {
     padding: 16px;
     color: white;
     text-align: center;
-    background-color:#0048cf;
+    background-color:#0f4880;
 }
 
 #PageName:hover{
@@ -59,7 +72,7 @@ header {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #0048cf;
+    background-color: #0f4880;
 }
 
 .nav-list li {
@@ -76,7 +89,7 @@ header {
 }
 
 .nav-list li a:hover {
-    background-color: #002468;
+    background-color: #0f4880;
 }
 
 /* Main content CSS */
@@ -85,7 +98,7 @@ header {
     position: absolute;
     z-index: -1;
     overflow: hidden;
-    background: #555555;
+    background: #bbbbbb;
 }
 
 section {
@@ -131,7 +144,7 @@ footer {
     bottom: 0;
     z-index: 1;
     overflow: hidden;
-    background: #0048cf;
+    background: #0f4880;
 }
 
 /* Contact info style */
@@ -145,7 +158,7 @@ footer {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333333;
+    background-color: #0f4880;
 }
 
 .contact-list li {
@@ -175,7 +188,7 @@ footer {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333333;
+    background-color: #0f4880;
 }
 
 .socials li {
