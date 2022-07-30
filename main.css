@@ -22,7 +22,7 @@ header {
     position: fixed;
     z-index: 1;
     overflow: hidden;
-    background: #333333;
+    background: #0048cf;
 }
 
 /* Website name/logo */
@@ -41,11 +41,11 @@ header {
     padding: 16px;
     color: white;
     text-align: center;
-    background-color:#333333;
+    background-color:#0048cf;
 }
 
 #PageName:hover{
-    background-color: #111111;
+    background-color: #002468;
 }
 
 /* Navigation bar */
@@ -59,7 +59,7 @@ header {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333333;
+    background-color: #0048cf;
 }
 
 .nav-list li {
@@ -76,7 +76,7 @@ header {
 }
 
 .nav-list li a:hover {
-    background-color: #111111;
+    background-color: #002468;
 }
 
 /* Main content CSS */
@@ -125,7 +125,7 @@ footer {
     bottom: 0;
     z-index: 1;
     overflow: hidden;
-    background: #333333;
+    background: #0048cf;
 }
 
 /* Contact info style */
