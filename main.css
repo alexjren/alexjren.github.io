@@ -42,6 +42,7 @@ header {
     background: #0f4880;
     opacity: 0.9;
     z-index: 1;
+    order: 1;
 }
 
 /* Website name/logo */
@@ -105,6 +106,7 @@ header {
     overflow: hidden;
     background: #bbbbbb;
     padding: 0;
+    order: 2;
 }
 
 section {
@@ -151,6 +153,7 @@ footer {
     background: #0f4880;
     z-index: 1;
     padding: 0;
+    order: 3;
 }
 
 /* Contact info style */
