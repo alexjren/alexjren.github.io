@@ -37,7 +37,8 @@ header {
     width: 100%;
     position: fixed;
     overflow: hidden;
-    background: rgba(15, 72, 128,0.6);
+    background: #0f4880;
+    opacity: 0.9;
     z-index: 1;
 }
 
@@ -101,7 +102,7 @@ header {
     position: absolute;
     overflow: hidden;
     background: #bbbbbb;
-    padding-bottom: 0;
+    padding: 0;
 }
 
 section {
@@ -149,6 +150,7 @@ footer {
     z-index: 1;
     position: absolute;
     bottom: 0;
+    padding: 0;
 }
 
 /* Contact info style */
