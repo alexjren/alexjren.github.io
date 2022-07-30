@@ -9,7 +9,7 @@
 
 html,
 body {
-    height: max-content;
+    height: auto;
     margin: 0;
     padding: 0;
 }
@@ -17,7 +17,7 @@ body {
 #page-wrapper {
     width: 100%;
     min-height: 100vh;
-    height: max-content;
+    height: auto;
     position: relative;
     overflow: scroll;
 }
@@ -35,9 +35,9 @@ hr {
 header {
     width: 100%;
     position: fixed;
-    z-index: 1;
     overflow: hidden;
     background: rgba(15, 72, 128,0.6);
+    z-index: 1;
 }
 
 /* Website name/logo */
@@ -98,7 +98,6 @@ header {
 .main-container {
     width: 100%;
     position: absolute;
-    z-index: -1;
     overflow: hidden;
     background: #bbbbbb;
 }
@@ -114,14 +113,12 @@ section {
     height: 100vh;
     overflow: hidden;
     background: #0f4880;
-    z-index: 0;
 }
 
 .home-header-content {
     margin: auto;
     padding: 30vh 0;
     display: inline;
-    z-index: 1;
 }
 
 .intro {
@@ -147,9 +144,9 @@ footer {
     width: 100%;
     position: absolute;
     bottom: 0;
-    z-index: 1;
     overflow: hidden;
     background: #0f4880;
+    z-index: 1;
 }
 
 /* Contact info style */
