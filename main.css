@@ -37,7 +37,7 @@ header {
     position: fixed;
     z-index: 1;
     overflow: hidden;
-    background: #0f4880;
+    background: rgba(15, 72, 128,0.6);
 }
 
 /* Website name/logo */
