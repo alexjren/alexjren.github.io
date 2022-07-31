@@ -26,8 +26,8 @@
 }
 
 .left-content {
+    width: 70%;
     padding: 0 30px;
-    width: 60%;
     background: #333333;
 }
 
@@ -55,16 +55,3 @@
     list-style-position: inside;
     padding: 10px 20px;
 }
-
-a.learn-more {
-    background-color: #1c87c9;
-    border: none;
-    color: white;
-    padding: 15px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    margin: 10px 2px;
-    cursor: pointer;
-  }

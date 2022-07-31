@@ -30,6 +30,19 @@ hr {
     border-width: 1px;
 }
 
+a.button {
+    background-color: #1c87c9;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 10px 2px;
+    cursor: pointer;
+}
+
 /* Header style */
 header {
     width: 100%;
@@ -170,6 +183,29 @@ section {
     object-position: 0 0;
 }
 
+#arrow {
+    width: 100%;
+    height:100px;
+    text-align: center;
+    background-color: rgba(6, 26, 68,0.5);
+    position: absolute;
+    top: 100vh;
+    transform: translate(0, -100%);
+}
+
+#arrow i {
+    font-size: 48px;
+    color: white;
+    opacity: 0.9;
+    position: relative;
+    top: 100%;
+    transform: translate(0,-130%);
+}
+
+#arrow i:hover {
+    opacity: 1;
+}
+
 /* Footer CSS */
 footer {
     width: 100%;
@@ -245,6 +281,6 @@ i {
     size: 8px;
 }
 
-i:hover {
+.socials i:hover {
     text-decoration: underline;
 }
