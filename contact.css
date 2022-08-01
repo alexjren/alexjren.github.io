@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+.title-container{
+    height: 30vh;
+}
+
+#title-text {
+    position: relative;
+    width: 800px;
+    height: 300px;
+    text-align: center;
+    margin: auto;
+}
+
+.header-content {
+    top: 60%;
+}
+
+.main-content {
+    height: max-content;
+    width: 75vw;
+    display: flex;
+    margin-bottom: 100px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+#text-content a {
+    text-decoration: underline;
+}
+
+#text-content a:hover {
+    color: white;
+}
+
+form {
+    width: 80%;
+    margin: auto;
+}
+/* Style inputs */
+input[type=text], select, textarea {
+    width:100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}

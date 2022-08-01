@@ -8,7 +8,7 @@
         <title>Alex Ren's Engineering Portfolio</title>
         <meta name="description" content="Alex Ren's engineering portfolio">
         <link rel="stylesheet" href="main.css">
-        <link rel="stylesheet" href="education.css">
+        <link rel="stylesheet" href="contact.css">
         <!--<base href="alexjren.github.io/" target="_self">-->
         <script src="https://kit.fontawesome.com/c8dd9d74ce.js" crossorigin="anonymous"></script>
     </head>
@@ -32,21 +32,43 @@
             </header>
 
             <div class="main-container">
-                <section class="section-info-container" id="title-container">
+                <section class="section-info-container title-container" id="contact">
                     <div class="header-content">
-                        <div id="text">
+                        <div id="title-text">
                             <div id="text-content">
-                                <h1>Welcome to my personal website!</h1>
+                                <h1>Contact Me</h1>
                                 <hr>
-                                <h2>My name is Alex Ren. I am a student in the Johns Hopkins University
-                                    class <br> of 2024 majoring in Mechanical Engineering with a focus on
-                                    aerospace. <br>This website was created as an online portfolio to showcase 
-                                    the projects I <br>have worked on. Please enjoy my online portfolio!</h2>
+                                <h2>Please feel free to contact me with any questions or 
+                                    comments.<br> The best way to reach me is by email at 
+                                    <a href="mailto: aren3@jhu.edu">aren3@jhu.edu</a> or 
+                                    just <br>fill out the form below!</h2>
                             </div>
                         </div>
-                        <img src="images/roster_photo.png" alt="Image failed to load" id="profile-img">
                     </div>
                 </section>
+                <div class="main-content">
+                    <form action="/action_page.php">
+                        <div>
+                            <div>
+                                <label for="fname">First Name</label>
+                                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                            </div>
+                            <div>
+                                <label for="lname">Last Name</label>
+                                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="email">Email Address</label>
+                            <input type="text" id="email" name="email" placeholder="Your email...">
+                        </div>
+                        <div>
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Write something.." style="height:170px"></textarea>
+                        </div>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
             </div>
     
             <footer id="footer">
@@ -58,7 +80,7 @@
                         </li>
                         <li>
                             <h1>Email</h1>
-                            <a>aren3@jhu.edu</a>
+                            <a href="mailto: aren3@jhu.edu">aren3@jhu.edu</a>
                         </li>
                         <li>
                             <h1>Follow</h1>
