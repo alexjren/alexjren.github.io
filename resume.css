@@ -1,0 +1,36 @@
+.title-container{
+    height: 30vh;
+}
+
+#title-text {
+    position: relative;
+    width: 800px;
+    height: 300px;
+    text-align: center;
+    margin: auto;
+}
+
+.header-content {
+    top: 60%;
+}
+
+.main-content {
+    height: max-content;
+    width: 75vw;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.main-content iframe {
+    height:1150px;
+    width:100%;
+    border:none;
+}
+
+#text-content a {
+    text-decoration: underline;
+}
+
+#text-content a:hover {
+    color: white;
+}
