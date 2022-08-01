@@ -43,6 +43,10 @@ a.button {
     cursor: pointer;
 }
 
+a.button:hover {
+    background-color: #144365;
+}
+
 /* Header style */
 header {
     width: 100%;
