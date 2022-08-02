@@ -41,19 +41,6 @@
     padding-right: 50px;
 }
 
-.right-content h1 {
-    padding: 15px 0;
-}
-
 .right-content p {
     padding: 15px 0;
-}
-
-.right-content h2 {
-    padding-top: 20px;
-    padding-bottom: 10px;
-}
-.right-content li {
-    list-style-position: inside;
-    padding: 10px 20px;
 }
