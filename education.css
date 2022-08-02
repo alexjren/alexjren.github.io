@@ -27,9 +27,23 @@
 
 .left-content {
     flex-basis: 0;
-    flex-grow: 4.5;
+    flex-grow: 4;
     padding: 0 30px;
     background: #333333;
+}
+
+.left-content img {
+    width: 100%;
+    padding-top: 30px;
+    object-fit: scale-down;
+}
+
+.left-content h1 {
+    padding: 20px 0;
+}
+
+.left-content p {
+    padding-bottom: 5px;
 }
 
 .right-content {
