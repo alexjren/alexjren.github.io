@@ -8,7 +8,7 @@
         <title>Alex Ren's Engineering Portfolio</title>
         <meta name="description" content="Alex Ren's engineering portfolio">
         <link rel="stylesheet" href="main.css">
-        <link rel="stylesheet" href="resume.css">
+        <link rel="stylesheet" href="contact.css">
         <!--<base href="alexjren.github.io/" target="_self">-->
         <script src="https://kit.fontawesome.com/c8dd9d74ce.js" crossorigin="anonymous"></script>
     </head>
@@ -32,20 +32,49 @@
             </header>
 
             <div class="main-container">
-                <section class="section-info-container title-container" id="resume">
+                <section class="section-info-container title-container" id="contact">
                     <div class="header-content">
                         <div id="title-text">
                             <div id="text-content">
-                                <h1>Resume</h1>
+                                <h1>Contact Me</h1>
                                 <hr>
-                                <h2>My most current <a href="docs/Ren_Resume.pdf" download>resume</a>
-                                    , last updated Jan 24, 2022.</h2>
+                                <h2>Please feel free to contact me with any questions or 
+                                    comments.<br> The best way to reach me is by email at 
+                                    <a href="mailto: aren3@jhu.edu">aren3@jhu.edu</a> or 
+                                    just <br>fill out the form below! <br> Note: Form not
+                                    yet fully functional.</h2>
                             </div>
                         </div>
                     </div>
                 </section>
                 <div class="main-content">
-                    <iframe src="docs/Ren_Resume 2022-01-24.pdf"></iframe>
+                    <!-- php does not work on github -->
+                    <!--<iframe src="contact_form.php"></iframe>-->
+                    <form action="mailto: aren3@jhu.edu" method="post" enctype="text/plain">
+                        <div>
+                            <div>
+                                <label for="fname">First Name</label>
+                                <span>*</span>
+                                <input type="text" id="fname" name="fname" placeholder="Your name.." required>
+                            </div>
+                            <div>
+                                <label for="lname">Last Name</label>
+                                <span>*</span>
+                                <input type="text" id="lname" name="lname" placeholder="Your last name.." required>
+                            </div>
+                        </div>
+                        <div>
+                            <label for="email">Email Address</label>
+                            <span>*</span>
+                            <input type="email" id="email" name="email" placeholder="Your email..." required>
+                        </div>
+                        <div>
+                            <label for="comment">Message</label>
+                            <textarea id="comment" name="comment" placeholder="Write something.." style="height:170px" required></textarea>
+                        </div>
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </form>
                 </div>
             </div>
     

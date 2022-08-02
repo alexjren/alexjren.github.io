@@ -47,7 +47,7 @@ label {
     color: #555555;
 }
 /* Style inputs */
-input[type=text], select, textarea {
+input[type=text], input[type=email], select, textarea {
     width:100%;
     padding: 12px;
     border: 1px solid #ccc;
@@ -57,15 +57,16 @@ input[type=text], select, textarea {
     color: #666666;
 }
 
-input[type=submit] {
+input[type=submit], input[type=reset] {
     background-color: #1c87c9;
     color: white;
     padding: 12px 20px;
+    margin-right: 20px;
     border: none;
     cursor: pointer;
 }
 
-input[type=submit]:hover {
+input[type=submit]:hover, input[type=reset]:hover {
     background-color: #144365;
 }
 
