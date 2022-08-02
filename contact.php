@@ -26,7 +26,7 @@
                         <li><a href="education.html">Education</a></li>
                         <li><a href="projects.html">Projects</a></li>
                         <li><a href="resume.html">Resume</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="contact.php">Contact</a></li>
                     </ul>
                 </nav>
             </header>
@@ -47,27 +47,7 @@
                     </div>
                 </section>
                 <div class="main-content">
-                    <form action="http://formspree.io/aren3@jhu.edu" method="POST">
-                        <div>
-                            <div>
-                                <label for="fname">First Name</label>
-                                <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
-                            </div>
-                            <div>
-                                <label for="lname">Last Name</label>
-                                <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
-                            </div>
-                        </div>
-                        <div>
-                            <label for="email">Email Address</label>
-                            <input type="text" id="email" name="email" placeholder="Your email..." required>
-                        </div>
-                        <div>
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" placeholder="Write something.." style="height:170px" required></textarea>
-                        </div>
-                        <input type="submit" value="Submit">
-                    </form>
+                    <?php include 'contact_form.php';?>
                 </div>
             </div>
     
